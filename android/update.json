@@ -1,8 +1,8 @@
 {
-  "version_name": "0.4.1",
-  "version_code": 5,
+  "version_name": "0.5.0",
+  "version_code": 6,
   "download_url": "https://github.com/Anshuman791322/smart-driver-monitoring-dashboard-downloads/raw/main/android/smart-driver-android-latest.apk",
-  "release_notes": "Android safety patch release: direct-call fallback now avoids SOS crashes, automatic SOS can retrigger after cancellation, queue escalation advances through every contact, automatic SMS dispatch is wired into SOS, encrypted settings init no longer blocks startup, cleartext traffic is restricted to local networks, backup exclusions protect encrypted preferences, threshold save clamps invalid heart-rate ranges, and the update feed now publishes this build as version 0.4.1.",
+  "release_notes": "Android 0.5.0 adds a foreground SOS runtime so countdown, calling, and automatic SMS alerts continue more reliably during emergencies. This release also hardens backend URL validation, preserves SOS history, reduces sensitive chat persistence, adds chart and accessibility fallback states, improves permission handling, enables release minification, and publishes the new build through the in-app update feed.",
   "published_at": "2026-04-13",
-  "sha256": "A015F64AD320C87213ED3FC3A1AD5CF51ABCAF891F4EE0167C508CB104703B94"
+  "sha256": "4C6073FC8BD2B58AE77746AD3F829B4FC5168BB3A9102E1057FC19BE520C1F40"
 }
